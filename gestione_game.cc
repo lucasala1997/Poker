@@ -20,6 +20,15 @@
  *
  * Viene richiamata ::resetVariable() la quale azzera le variabili
  * per poter iniziare una nuova mano
+ *
+ * @param[in] g Puntatore ad un array di tipo giocatore di due elementi
+ * @param[in] mazzo Puntatore ad un array di tio carta di 52 elementi
+ * @param[in] puntatore_mazzo Utilizzato per scorrere il mazzo
+ * @param[in] verifica Puntatore ad un array di due elementi.
+ *                     Il primo elemento contiene le carte del tavolo e quelle
+ *                     del primo giocatore,
+ *                     Il secondo contiene le carte del tavolo e quelle del
+ *                     secondo giocatore.
  */
 void game(giocatore *g,carta *mazzo,int &puntatore_mazzo,carta *verifica){
 
